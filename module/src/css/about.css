@@ -1,3 +1,440 @@
 @charset "utf-8";
 
+/*ページ共通*/
+body p{
+  color:#333;
+  word-break: normal;
+  font-size: 13px;
+}
+body #content li{
+  list-style: none;
+}
+
+/*メインカラム*/
+
+/*about*/
+.about{
+  margin-bottom:20px;
+}
+.about h1 {
+  position:relative;
+  margin-bottom:22px;
+  padding-left:28px;
+  color:#333;
+  font-weight: normal;
+  font-size: 20px;
+}
+.about h1::after{
+  position: absolute;
+  top:2px;
+  left: 0px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: solid 4px #50b792;
+  border-radius: 50%;
+  content: "";
+}
+.about .about-text {
+  margin-bottom:20px;
+  line-height:1.5;
+}
+.about .registration {
+  padding:16px 0 15px 0;
+  border:solid 2px #fff;
+  border-radius: 4px;
+  background-color:#fbeff2;
+  text-align: center;
+}
+.about .registration .registration-text {
+  display: inline-block;
+  width:213px;
+  color: #d36073;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 12px;
+}
+.about .registration .registration-button {
+  display: inline-block;
+  width:202px;
+  height:34px;
+  border: solid 1px #ccb0b7;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+.about .registration .registration-button a {
+  display: block;
+  width:200px;
+  height:32px;
+  border:1px solid #f3d3db;
+  border-radius: 4px;
+  background: #ebb5c0; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#ebb5c0),to(#d5738b));
+  background: linear-gradient(to bottom, #ebb5c0 0%,#d5738b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  color:#fff;
+  text-align: center;
+  text-decoration: none;
+  font-weight:bold;
+  line-height: 2.5;
+}
+
+
+/*service*/
+
+.service {
+  margin-bottom:20px;
+  padding:18px 17px 17px 16px;
+  border:1px solid #d9d2c3;
+  border-radius: 4px;
+  background-image: url(../img/background_service.jpg);
+}
+.service .service-list {
+  border:solid 1px #d9d3c5;
+  background-color: #fff;
+}
+.service .service-list + .service-list {
+  margin-top:10px;
+}
+.service .service-list h2 {
+  font-size: 15px;
+}
+.service .service-list ul {
+  overflow: hidden;
+  width:540px;
+}
+.service .service-list ul li{
+  margin-bottom:12px;
+  width:250px;
+}
+.service .service-list ul li:nth-child(2n+1){
+  float:left;
+  padding-right:30px;
+}
+.service .service-list ul li:nth-child(2n){
+  float:right;
+}
+.service .service-list ul li section h3{
+  display: inline-block;
+  margin-bottom:6px;
+}
+.service .service-list ul li section h3::before{
+  display: inline-block;
+  margin-right:4px;
+  width: 12px;
+  height: 12px;
+  background: url(../img/icon_header.png) no-repeat;
+  background-size: contain;
+  content: "";
+  vertical-align: baseline;
+}
+
+/*ランキングのみ*/
+
+.service .service-rank {
+  padding:23px 24px 27px 36px;
+}
+.service .service-rank h2{
+  position:relative;
+  margin-bottom:28px;
+  padding:4px 0 4px 34px;
+  height:26px;
+  background-color:#c9e0dc;
+  line-height: 2.0;
+}
+.service .service-rank h2::after{
+  position:absolute;
+  top:50%;
+  left:-25px;
+  display: block;
+  margin-top:-25px;
+  margin-right:4px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  background: url(../img/icon_crown.png) no-repeat;
+  background-color:#c9e0dc; 
+  background-position: 50% 40%;
+  background-size:content;
+  content: "";
+}
+
+/*コイン・ポイント&クーポンのみ*/
+
+.service .service-coin{
+  padding:23px 22px 27px 26px;
+}
+.service .service-coin h2{
+  position:relative;
+  margin-bottom:28px;
+  padding:4px 0 4px 50px;
+  height:26px;
+  background-color:#ffdec9;
+  line-height: 2.0;
+}
+.service .service-coin h2:after{
+  position:absolute;
+  top:50%;
+  left:-12px;
+  display: block;
+  margin-top:-25px;
+  margin-right:4px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  background: url(../img/icon_piggybank.png) no-repeat;
+  background-color:#ffdec9; 
+  background-position: 50% 50%;
+  background-size: content;
+  content: "";
+}
+
+/*chieco、ビューティー検索共通*/
+.service .service-chieco,
+.service .service-search{
+  display: inline-block;
+  padding:24px 0 47px 0;
+  width:294px;
+}
+.service .service-chieco ul li,
+.service .service-search ul li{
+  margin:0 0 0 26px;
+}
+
+/*chiecoのみ*/
+.service .service-chieco{
+  margin-right:3px;
+}
+.service .service-chieco h2{
+  position:relative;
+  margin:0 0 28px 12px;
+  padding-left:56px;
+  width:200px;
+  height:26px;
+  background-color:#f3dce8;
+  line-height: 2.0;
+}
+.service .service-chieco h2:after{
+  position:absolute;
+  top:50%;
+  left:-2px;
+  display: block;
+  margin-top:-25px;
+  margin-right:4px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  background: url(../img/icon_question.png) no-repeat;
+  background-color:#f3dce8; 
+  background-position: 50% 50%;
+  background-size: content;
+  content: "";
+}
+
+/*ビューティー検索のみ*/
+.service .service-search h2{
+  position:relative;
+  margin:0 0 28px 12px;
+  padding-left:56px;
+  width:200px;
+  height:26px;
+  background-color:#ffd4de;
+  line-height: 2.0;
+}
+.service .service-search h2:after{
+  position:absolute;
+  top:50%;
+  left:-2px;
+  display: block;
+  margin-top:-25px;
+  margin-right:4px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  background: url(../img/icon_search.png) no-repeat;
+  background-color:#ffd4de; 
+  background-position: 50% 45%;
+  background-size: content;
+  content: "";
+}
+
+/*スペシャルのみ*/
+.service .service-special{
+  padding:24px 21px 30px 26px;
+}
+.service .service-special h2{
+  position:relative;
+  margin-bottom:28px;
+  padding:4px 0 4px 50px;
+  height:26px;
+  background-color:#c9e0dc;
+  line-height: 2.0;
+}
+.service .service-special h2:after{
+  position:absolute;
+  top:50%;
+  left:-12px;
+  display: block;
+  margin-top:-25px;
+  margin-right:4px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  background: url(../img/icon_dia.png) no-repeat;
+  background-color:#c9e0dc; 
+  background-position: 50% 50%;
+  background-size: content;
+  content: "";
+}
+
+
+
+
+/*サブカラム*/
+
+/*共通*/
+.topics-area,
+.topics-new,
+.bfc-present,
+.topics-rank,
+.bfc-news{
+  border-top:1px solid #d9d2c3;
+}
+.topics-area .topics-title ,
+.topics-new .topics-title,
+.bfc-present .topics-title,
+.topics-rank .topics-title,
+.bfc-news .topics-title{
+  margin:2px 0 16px 0;
+  padding:6px 0 6px 16px;
+  background: #f4f2ec; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#f4f2ec),color-stop(50%, #f8f7f4),to(#fdfdfc));
+  background: linear-gradient(to bottom, #f4f2ec 0%,#f8f7f4 50%,#fdfdfc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  font-weight: bold;
+  font-size:14px;
+}
+
+/*注目トピックス、What's New、ランキングのみ共通*/
+.topics-area .topics-title::before,
+.topics-new .topics-title::before,
+.topics-rank .topics-title::before{
+  padding-right:7px;
+  border-left:solid 5px #d9d2c3;
+  content:"";
+  vertical-align: middle;
+}
+
+/*ブランドファンクラブ限定プレゼント、ブランドファンクラブ新着情報共通*/
+.bfc-present .topics-title::before,
+.bfc-news .topics-title::before{
+  padding-right:37px;
+  background-image: url(../img/icon_bfc.png) ;
+  content:"";
+  vertical-align: middle;
+}
+
+
+/*注目トピックス*/
+.topics-area {
+  margin-bottom:16px;
+}
+.topics-area li {
+  width:300px;
+  height:100px;
+}
+.topics-area ul li + li{
+  margin-top:10px;
+}
+
+/*What's New*/
+.topics-new {
+  margin-bottom:25px;
+}
+.topics-new ul {
+  margin-bottom:6px;
+}
+.topics-new li {
+  padding:6px 0 6px 0;
+  border-bottom:dotted 1px #bfb7ac;
+}
+.topics-new li a {
+  text-decoration: none;
+  font-size: 12px;
+}
+.topics-new li a::before{
+  display: inline-block;
+  margin-right:9px;
+  width:6px;
+  height:6px;
+  border-radius: 50%;
+  background:#4eb691;
+  content:"";
+}
+.topics-new ul li a .day {
+  margin:0 3px 0 8px;
+  color:#666666;
+  vertical-align: middle;
+  font-size:10px;
+}
+.topics-new ul li a .up {
+  display: inline-block;
+  overflow: hidden;
+  width: 22px;
+  height: 11px;
+  background-image: url(../img/ison_up.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+.topics-new .more{
+  text-align: right;
+}
+
+/*ブランドファンクラブ限定プレゼント*/
+.bfc-present .event-date {
+  font-size: 11px;
+  color:#775555;
+  background-color:#f1eee8;
+  margin-bottom:10px;
+}
+.bfc-present .deadline {
+  font-size:11px;
+  color:#666666;
+  text-align: right;
+}
+.bfc-present li {
+  display: table;
+  width:280px;
+  padding:12px 0;
+  border-bottom:dotted 1px #bfb7ac;
+}
+.bfc-present li .present-image {
+  display: table-cell;
+  width:88px;
+  text-align: center;
+  padding-right:10px;
+}
+.bfc-present li .present-text {
+  width:170px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.bfc-present li .present-title {
+}
+.bfc-present li .present-title a {
+}
+.bfc-present li .present-title span {
+}
+.bfc-present li .present-title span a {
+  text-decoration: none;
+}
+.bfc-present li .present-detaile {
+}
+
+
+
+
+
+
 
