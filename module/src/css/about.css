@@ -727,6 +727,10 @@ body #content li {
   margin: 0 0 5px 10px;
 }
 
+#sub .bfc-present ul li .present-text .present-title .present-product {
+  font-weight: bold;
+}
+
 #sub .bfc-present ul li .present-text .marking {
   display: inline-block;
   overflow: hidden;
@@ -759,6 +763,7 @@ body #content li {
 
 #sub .bfc-present .more {
   margin-top: 9px;
+  font-weight: bold;
 }
 
 /*topics-rank*/
