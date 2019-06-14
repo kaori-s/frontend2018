@@ -485,8 +485,8 @@ body #content li {
   display: flex;
   margin: 0 auto;
   padding: 40px 0 28px 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(50%, #faf8f5), to(#e9e4d9));
-  background: linear-gradient(to bottom, #ffffff 0%, #faf8f5 50%, #e9e4d9 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(50%, #faf8f5), to(#e9e4d9));
+  background: linear-gradient(to bottom, #fff 0%, #faf8f5 50%, #e9e4d9 100%);
 }
 
 .mycosme .mycosme-contentArea .registration .registration-text {
