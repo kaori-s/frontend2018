@@ -975,6 +975,9 @@ body #content li {
 
 #sub .bfc-news .brand-list li {
   display: inline-block;
+}
+
+#sub .bfc-news .brand-list li a {
   font-size: 13px;
 }
 
