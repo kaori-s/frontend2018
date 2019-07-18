@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 /*ページ共通*/
-
 body {
 	font-size: 12px;
 	line-height: 1.4;
@@ -19,7 +18,6 @@ body #content li {
 
 
 /*メインカラム*/
-
 /*about*/
 .about {
 	margin-bottom: 20px;
@@ -310,9 +308,7 @@ body #content li {
 	padding-bottom: 64px;
 }
 
-
 /*chieco（Q&A）のみ*/
-
 .service .service-wrapper .service-chieco ul li section {
 	margin: 27px 0 0 8px;
 	width: 261px;
@@ -404,7 +400,6 @@ body #content li {
 .service .service-special ul li section h3 {
 	margin-bottom: 4px;
 }
-
 
 /*mycosme*/
 .mycosme {
@@ -529,11 +524,6 @@ body #content li {
 /*サブカラム*/
 
 /*サブカラム共通*/
-
-#sub {
-	margin-top: -2px;
-}
-
 #sub .title {
 	margin-top: 2px;
 	padding: 4px 0 8px 5px;
@@ -585,7 +575,6 @@ body #content li {
 }
 
 /*topics-notice*/
-
 #sub .topics-notice ul {
 	margin-bottom: 12px;
 }
@@ -599,7 +588,6 @@ body #content li {
 }
 
 /*topics-new*/
-
 #sub .topics-new {
 	margin-bottom: 23px;
 }
