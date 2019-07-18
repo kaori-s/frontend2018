@@ -1,22 +1,19 @@
 @charset "utf-8";
 
 /*ページ共通*/
-html{
-	font-size: 62.5%;
-}
 
-body{
+body {
 	font-size: 12px;
 	line-height: 1.4;
 }
 
-body p{
+body p {
 	color: #333;
 	word-break: normal;
 	font-size: 13px;
 }
 
-body #content li{
+body #content li {
 	list-style: none;
 }
 
@@ -24,21 +21,21 @@ body #content li{
 /*メインカラム*/
 
 /*about*/
-.about{
+.about {
 	margin-bottom: 20px;
 	padding-top: 5px;
 }
 
-.about h1{
+.about h1 {
 	position: relative;
-	margin-bottom: 10px;
+	margin-bottom: 13px;
 	padding-left: 26px;
 	color: #333;
 	font-weight: normal;
 	font-size: 26px;
 }
 
-.about h1:after{
+.about h1:after {
 	position: absolute;
 	top: 8px;
 	left: 0;
@@ -50,18 +47,18 @@ body #content li{
 	content: "";
 }
 
-.about .about-text{
+.about .about-text {
 	margin-bottom: 13px;
 	line-height: 1.7;
 }
 
-.about .registration-area{
+.about .registration-area {
 	width: 633px;
 	border: 1px solid #f2c5d0;
 	border-radius: 4px;
 }
 
-.about .registration-area .registration-content{
+.about .registration-area .registration-content {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -71,7 +68,7 @@ body #content li{
 	background-color: #fbeff2;
 }
 
-.registration-area .registration-content .registration-text{
+.registration-area .registration-content .registration-text {
 	margin: 0 8px 0 102px;
 	color: #d36073;
 	font-weight: bold;
@@ -79,13 +76,13 @@ body #content li{
 	line-height: 1.4;
 }
 
-.registration-area .registration-content .registration-button{
+.registration-area .registration-content .registration-button {
 	height: 32px;
 	border: 1px solid #ccb0b7;
 	border-radius: 5px;
 }
 
-.registration-area .registration-content .registration-button a{
+.registration-area .registration-content .registration-button a {
 	display: block;
 	padding: 5px 20px 3px 27px;
 	height: 22px;
@@ -100,12 +97,12 @@ body #content li{
 	font-size: 15px;
 }
 
-.registration-area .registration-content .registration-button a:hover{
+.registration-area .registration-content .registration-button a:hover {
 	cursor: pointer;
 }
 
 /*service*/
-.service{
+.service {
 	margin-bottom: 20px;
 	padding: 18px 17px 17px 16px;
 	width: 600px;
@@ -115,34 +112,34 @@ body #content li{
 }
 
 /*service-list共通*/
-.service .service-list{
+.service .service-list {
 	border: 1px solid #d9d3c5;
 	background-color: #fff;
 }
 
-.service .service-list + .service-list{
+.service .service-list + .service-list {
 	margin-top: 10px;
 }
 
-.service .service-list h2{
+.service .service-list h2 {
 	font-size: 15px;
 }
 
-.service .service-list ul{
+.service .service-list ul {
 	overflow: hidden;
 }
 
-.service .service-list ul li:nth-child(2n+1){
+.service .service-list ul li:nth-child(2n+1) {
 	float: left;
 	width: 48%;
 }
 
-.service .service-list ul li:nth-child(2n){
+.service .service-list ul li:nth-child(2n) {
 	float: right;
 	width: 48%;
 }
 
-.service .service-list ul li section h3{
+.service .service-list ul li section h3 {
 	display: inline-block;
 	margin-bottom: 3px;
 	color: #068681;
@@ -150,7 +147,7 @@ body #content li{
 	line-height: 1.5;
 }
 
-.service .service-list ul li section h3::before{
+.service .service-list ul li section h3::before {
 	display: inline-block;
 	margin-right: 6px;
 	width: 7px;
@@ -162,9 +159,9 @@ body #content li{
 }
 
 /*ランキング コイン・ポイント & クーポン スペシャル共通*/
-.service .service-rank h2,
-.service .service-coin h2,
-.service .service-special h2{
+.service .service-rank h2 ,
+.service .service-coin h2 ,
+.service .service-special h2 {
 	position: relative;
 	margin-bottom: 26px;
 	width: 504px;
@@ -173,9 +170,9 @@ body #content li{
 	line-height: 2.0;
 }
 
-.service .service-rank h2::after,
-.service .service-coin h2::after,
-.service .service-special h2::after{
+.service .service-rank h2::after ,
+.service .service-coin h2::after ,
+.service .service-special h2::after {
 	position: absolute;
 	top: 50%;
 	display: block;
@@ -186,23 +183,22 @@ body #content li{
 }
 
 /*chieco（Q&A） ビューティ検索共通*/
-.service .service-wrapper{
+.service .service-wrapper {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	margin-bottom: 10px;
-
-	７flex-wrap: wrap;
+	flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 }
 
-.service .service-wrapper:after{
+.service .service-wrapper:after {
 	display: block;
 	clear: both;
 	content: '';
 }
 
-.service .service-wrapper .service-list{
+.service .service-wrapper .service-list {
 	display: inline-block;
 	margin-top: 9px;
 	padding: 13px 3px 0 19px;
@@ -211,15 +207,15 @@ body #content li{
 	vertical-align: top;
 }
 
-.service .service-wrapper .service-chieco .title-chieco,
-.service .service-wrapper .service-search .title-search{
+.service .service-wrapper .service-chieco .title-chieco ,
+.service .service-wrapper .service-search .title-search {
 	position: relative;
 	margin-top: 11px;
 	padding-left: 56px;
 }
 
-.service .service-wrapper .service-chieco h2::before,
-.service .service-wrapper .service-search h2::before{
+.service .service-wrapper .service-chieco h2::before ,
+.service .service-wrapper .service-search h2::before {
 	position: absolute;
 	top: 50%;
 	display: block;
@@ -229,22 +225,22 @@ body #content li{
 	content: '';
 }
 
-.service .service-wrapper .service-chieco ul li section p,
-.service .service-wrapper .service-search ul li section p{
+.service .service-wrapper .service-chieco ul li section p ,
+.service .service-wrapper .service-search ul li section p {
 	line-height: 1.55;
 }
 
 /*ランキングのみ*/
-.service .service-rank{
+.service .service-rank {
 	padding: 24px 25px 16px 36px;
 }
 
-.service .service-rank h2{
+.service .service-rank h2 {
 	padding-left: 34px;
 	background-color: #c9e0dc;
 }
 
-.service .service-rank h2::after{
+.service .service-rank h2::after {
 	left: -22px;
 	margin-top: -24px;
 	width: 49px;
@@ -255,22 +251,22 @@ body #content li{
 	background-repeat: no-repeat;
 }
 
-.service .service-rank ul li section{
+.service .service-rank ul li section {
 	min-height: 90px;
 }
 
-.service .service-rank ul li section p{
+.service .service-rank ul li section p {
 	padding: 2px 0 0 2px;
 	line-height: 1.6;
 }
 
 /*コイン・ポイント & クーポンのみ*/
-.service .service-coin{
+.service .service-coin {
 	position: relative;
 	padding: 23px 12px 20px 26px;
 }
 
-.service .service-coin:after{
+.service .service-coin:after {
 	position: absolute;
 	right: 31px;
 	bottom: 20px;
@@ -281,12 +277,12 @@ body #content li{
 	content: '';
 }
 
-.service .service-coin h2{
+.service .service-coin h2 {
 	padding-left: 45px;
 	background-color: #ffdec9;
 }
 
-.service .service-coin h2::after{
+.service .service-coin h2::after {
 	left: -13px;
 	margin-top: -24px;
 	width: 49px;
@@ -297,34 +293,39 @@ body #content li{
 	background-repeat: no-repeat;
 }
 
-.service .service-coin ul li section{
+.service .service-coin ul li section {
 	min-height: 134px;
 }
 
-.service .service-coin ul li section h3{
+.service .service-coin ul li section h3 {
 	margin-bottom: 5px;
 }
 
-.service .service-coin ul li section p{
+.service .service-coin ul li section p {
 	padding-left: 1px;
 	line-height: 1.6;
 }
 
+.service .service-coin ul li section .service-coin-text {
+	padding-bottom: 64px;
+}
+
+
 /*chieco（Q&A）のみ*/
 
-.service .service-wrapper .service-chieco ul li section{
+.service .service-wrapper .service-chieco ul li section {
 	margin: 27px 0 0 8px;
 	width: 261px;
 }
 
-.service .service-wrapper .service-chieco .title-chieco{
+.service .service-wrapper .service-chieco .title-chieco {
 	margin-left: 16px;
 	padding: 4px 0 1px 35px;
 	width: 203px;
 	background-color: #f3dce8;
 }
 
-.service .service-wrapper .service-chieco .title-chieco::before{
+.service .service-wrapper .service-chieco .title-chieco::before {
 	left: -22px;
 	margin-top: -24px;
 	background: url(../img/icon_question.png) no-repeat;
@@ -333,24 +334,24 @@ body #content li{
 }
 
 /*ビューティー検索のみ*/
-.service .service-wrapper .service-search{
+.service .service-wrapper .service-search {
 	margin-left: 12px;
 	padding: 13px 18px 0 13px;
 }
 
-.service .service-wrapper .service-search ul li section{
+.service .service-wrapper .service-search ul li section {
 	margin: 26px 0 0 14px;
 	width: 235px;
 }
 
-.service .service-wrapper .service-search .title-search{
+.service .service-wrapper .service-search .title-search {
 	margin-left: 16px;
 	padding: 4px 0 1px 41px;
 	width: 204px;
 	background-color: #ffd4de;
 }
 
-.service .service-wrapper .service-search .title-search::before{
+.service .service-wrapper .service-search .title-search::before {
 	left: -16px;
 	margin-top: -24px;
 	background: url(../img/icon_search.png) no-repeat;
@@ -359,16 +360,16 @@ body #content li{
 }
 
 /*スペシャルのみ*/
-.service .service-special{
+.service .service-special {
 	padding: 24px 22px 2px 27px;
 }
 
-.service .service-special h2{
+.service .service-special h2 {
 	padding-left: 45px;
 	background-color: #c9e0dc;
 }
 
-.service .service-special h2::after{
+.service .service-special h2::after {
 	left: -13px;
 	margin-top: -24px;
 	width: 49px;
@@ -379,78 +380,77 @@ body #content li{
 	background-repeat: no-repeat;
 }
 
-.service .service-special ul{
+.service .service-special ul {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-
 	flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 }
 
-.service .service-special ul li{
+.service .service-special ul li {
 	display: inline-block;
 }
 
-.service .service-special ul li:nth-child(1),
-.service .service-special ul li + li{
+.service .service-special ul li:nth-child(1) ,
+.service .service-special ul li + li {
 	margin-bottom: 22px;
 }
 
-.service .service-special ul li:nth-child(2n){
+.service .service-special ul li:nth-child(2n) {
 	margin-left: 21px;
 }
 
-.service .service-special ul li section h3{
+.service .service-special ul li section h3 {
 	margin-bottom: 4px;
 }
 
 
 /*mycosme*/
-.mycosme{
+.mycosme {
 	border: 1px solid #ece8e0;
 	border-radius: 4px;
 }
 
-.mycosme .mycosme-contentArea{
+.mycosme .mycosme-contentArea {
 	margin: 2px;
 	border: 1px solid #d9d2c3;
 	border-radius: 4px;
 }
 
-.mycosme .mycosme-contentArea .mycosme-content::after{
+.mycosme .mycosme-contentArea .mycosme-content::after {
 	display: block;
 	clear: both;
 	content: '';
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-image,
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea{
+.mycosme .mycosme-contentArea .mycosme-content .mycosme-image ,
+.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea {
 	float: left;
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea{
+.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea {
 	padding: 18px 0 0 18px;
 	width: 328px;
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea h2 img{
+.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea h2 img {
 	margin-bottom: 11px;
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea .mycosme-listArea{
+.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea .mycosme-listArea {
 	margin-bottom: 12px;
 	padding-top: 12px;
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea .mycosme-listArea .mycosme-list{
+.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea .mycosme-listArea .mycosme-list {
 	position: relative;
 	padding-left: 15px;
 	font-size: 13px;
 	line-height: 1.6;
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea .mycosme-listArea .mycosme-list::before{
+.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea .mycosme-listArea .mycosme-list::before {
 	position: absolute;
 	top: 4px;
 	left: 2px;
@@ -462,21 +462,21 @@ body #content li{
 	content: '';
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea .mycosme-listArea .mycosme-list + li{
+.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea .mycosme-listArea .mycosme-list + li {
 	margin-top: 9px;
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea .mycosme-text{
+.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea .mycosme-text {
 	line-height: 1.4;
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-image{
+.mycosme .mycosme-contentArea .mycosme-content .mycosme-image {
 	margin-left: 24px;
 	padding-top: 15px;
 	width: 257px;
 }
 
-.mycosme .mycosme-contentArea .registration{
+.mycosme .mycosme-contentArea .registration {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -486,7 +486,7 @@ body #content li{
 	background: linear-gradient(to bottom, #fff 0%, #faf8f5 50%, #e9e4d9 100%);
 }
 
-.mycosme .mycosme-contentArea .registration .registration-text{
+.mycosme .mycosme-contentArea .registration .registration-text {
 	margin: 0 8px 0 112px;
 	color: #d36073;
 	vertical-align: middle;
@@ -495,19 +495,19 @@ body #content li{
 	line-height: 1.4;
 }
 
-.mycosme .mycosme-contentArea .registration .registration-text,
-.mycosme .mycosme-contentArea .registration .registration-button{
+.mycosme .mycosme-contentArea .registration .registration-text ,
+.mycosme .mycosme-contentArea .registration .registration-button {
 	display: inline-block;
 }
 
-.mycosme .mycosme-contentArea .registration .registration-button{
+.mycosme .mycosme-contentArea .registration .registration-button {
 	height: 32px;
 	border: 1px solid #ccb0b7;
 	border-radius: 5px;
 	vertical-align: middle;
 }
 
-.mycosme .mycosme-contentArea .registration .registration-button a{
+.mycosme .mycosme-contentArea .registration .registration-button a {
 	display: block;
 	padding: 5px 23px 3px 24px;
 	height: 22px;
@@ -522,7 +522,7 @@ body #content li{
 	font-size: 15px;
 }
 
-.mycosme .mycosme-contentArea .registration .registration-button a:hover{
+.mycosme .mycosme-contentArea .registration .registration-button a:hover {
 	cursor: pointer;
 }
 
@@ -530,11 +530,11 @@ body #content li{
 
 /*サブカラム共通*/
 
-#sub{
+#sub {
 	margin-top: -2px;
 }
 
-#sub .title{
+#sub .title {
 	margin-top: 2px;
 	padding: 4px 0 8px 5px;
 	background: -webkit-gradient(linear, left top, left bottom, from(#7db9e8), color-stop(0%, #f4f2ec), color-stop(69%, #faf9f7), to(#fff));
@@ -543,16 +543,16 @@ body #content li{
 	font-size: 13px;
 }
 
-#sub .topics-notice .title::before,
-#sub .topics-new .title::before,
-#sub .topics-rank .title::before{
+#sub .topics-notice .title::before ,
+#sub .topics-new .title::before ,
+#sub .topics-rank .title::before {
 	margin-right: 7px;
 	border-left: 5px solid #d9d2c3;
 	content: '';
 }
 
-#sub .bfc-present .title::before,
-#sub .bfc-news .title::before{
+#sub .bfc-present .title::before ,
+#sub .bfc-news .title::before {
 	display: inline-block;
 	margin: -3px 4px 0 3px;
 	width: 37px;
@@ -562,19 +562,19 @@ body #content li{
 	vertical-align: middle;
 }
 
-#sub .topics-notice,
-#sub .topics-new,
-#sub .bfc-present,
-#sub .topics-rank,
-#sub .bfc-news{
+#sub .topics-notice ,
+#sub .topics-new ,
+#sub .bfc-present ,
+#sub .topics-rank ,
+#sub .bfc-news {
 	border-top: 1px solid #d9d2c3;
 }
 
-#sub .more{
+#sub .more {
 	text-align: right;
 }
 
-#sub .more::after{
+#sub .more::after {
 	display: inline-block;
 	margin-left: 3px;
 	width: 5px;
@@ -586,44 +586,44 @@ body #content li{
 
 /*topics-notice*/
 
-#sub .topics-notice ul{
+#sub .topics-notice ul {
 	margin-bottom: 12px;
 }
 
-#sub .topics-notice ul{
+#sub .topics-notice ul {
 	margin-top: 11px;
 }
 
-#sub .topics-notice ul li + li{
+#sub .topics-notice ul li + li {
 	margin-top: 6px;
 }
 
 /*topics-new*/
 
-#sub .topics-new{
+#sub .topics-new {
 	margin-bottom: 23px;
 }
 
-#sub .topics-new ul{
+#sub .topics-new ul {
 	margin-top: 2px;
 }
 
-#sub .topics-new ul li{
+#sub .topics-new ul li {
 	margin-left: 9px;
 	padding: 0 0 6px 2px;
 	border-bottom: 1px dashed #bfb7ac;
 	font-size: 12px;
 }
 
-#sub .topics-new ul li + li{
+#sub .topics-new ul li + li {
 	margin-top: 6px;
 }
 
-#sub .topics-new ul li a{
+#sub .topics-new ul li a {
 	text-decoration: none;
 }
 
-#sub .topics-new ul li a:before{
+#sub .topics-new ul li a:before {
 	display: inline-block;
 	margin-right: 9px;
 	width: 4px;
@@ -633,12 +633,12 @@ body #content li{
 	content: '';
 }
 
-#sub .topics-new ul li a .day{
+#sub .topics-new ul li a .day {
 	margin-left: 10px;
 	color: #666;
 }
 
-#sub .topics-new ul li a .up{
+#sub .topics-new ul li a .up {
 	display: inline-block;
 	overflow: hidden;
 	margin-left: 3px;
@@ -646,27 +646,26 @@ body #content li{
 	height: 11px;
 	background-image: url(../img/icon_up.png);
 	background-size: contain;
-	background-repeat: no-repeat;
 	vertical-align: middle;
 	text-indent: 100%;
 	white-space: nowrap;
 }
 
-#sub .topics-new .more{
+#sub .topics-new .more {
 	margin: 4px 5px 0 0;
 }
 
 /*bfc-present*/
-#sub .bfc-present{
+#sub .bfc-present {
 	margin-bottom: 19px;
 }
 
-#sub .bfc-present .title{
+#sub .bfc-present .title {
 	padding-top: 6px;
 	font-size: 14px;
 }
 
-#sub .bfc-present .event-date{
+#sub .bfc-present .event-date {
 	margin: 3px 10px 0;
 	padding-left: 12px;
 	height: 11px;
@@ -675,17 +674,17 @@ body #content li{
 	font-size: 11px;
 }
 
-#sub .bfc-present .deadline{
+#sub .bfc-present .deadline {
 	margin: 9px 10px 0 0;
 	text-align: right;
 	font-size: 11px;
 }
 
-#sub .bfc-present ul{
+#sub .bfc-present ul {
 	margin-top: 10px;
 }
 
-#sub .bfc-present ul li{
+#sub .bfc-present ul li {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -693,86 +692,84 @@ body #content li{
 	border-bottom: 1px dashed #ccc;
 }
 
-#sub .bfc-present ul li + li{
+#sub .bfc-present ul li + li {
 	padding-top: 12px;
 }
 
-#sub .bfc-present ul li .present-image{
+#sub .bfc-present ul li .present-image {
 	display: inline-block;
 	margin-top: 3px;
 	width: 100px;
 	text-align: center;
 }
 
-#sub .bfc-present ul li:nth-child(2) .present-image img{
+#sub .bfc-present ul li:nth-child(2) .present-image img {
 	position: relative;
 	top: 50%;
 	margin-top: -25px;
 }
 
-#sub .bfc-present ul li .present-text{
+#sub .bfc-present ul li .present-text {
 	display: inline-block;
 	margin: 0 0 5px 10px;
 	width: 180px;
 }
 
-#sub .bfc-present ul li .present-text .present-title .present-product{
+#sub .bfc-present ul li .present-text .present-title .present-product {
 	font-weight: bold;
 }
 
-#sub .bfc-present ul li .present-text .marking{
+#sub .bfc-present ul li .present-text .marking {
 	display: inline-block;
 	overflow: hidden;
 	width: 16px;
 	height: 16px;
 	background-image: url(../img/icon_actual.png);
 	background-size: contain;
-	background-repeat: no-repeat;
 	vertical-align: middle;
 	text-indent: 100%;
 	white-space: nowrap;
 }
 
-#sub .bfc-present ul li .present-text .sample{
+#sub .bfc-present ul li .present-text .sample {
 	display: inline-block;
 	overflow: hidden;
 	width: 16px;
 	height: 16px;
 	background-image: url(../img/icon_sample.png);
 	background-size: contain;
-	background-repeat: no-repeat;
 	vertical-align: middle;
 	text-indent: 100%;
 	white-space: nowrap;
 }
 
-#sub .bfc-present ul li .present-text span + span{
+#sub .bfc-present ul li .present-text span + span {
 	margin-left: 4px;
 }
 
-#sub .bfc-present .more{
+#sub .bfc-present .more {
 	margin-top: 9px;
 	font-weight: bold;
 }
 
 /*topics-rank*/
-#sub .topics-rank{
+#sub .topics-rank {
 	margin-bottom: 36px;
 }
 
-#sub .topics-rank .rank_contents{
+#sub .topics-rank .rank_contents {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 }
 
-#sub .topics-rank ul{
+#sub .topics-rank ul {
 	display: inline-block;
 	margin-right: 16px;
 	width: 200px;
 }
 
-#sub .topics-rank ul .rank-list{
+#sub .topics-rank ul .rank-list {
 	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -782,35 +779,35 @@ body #content li{
 	border-bottom: 1px dotted #bfb7ac;
 }
 
-#sub .topics-rank ul .rank-list .rank-number{
+#sub .topics-rank ul .rank-list .rank-number {
 	position: relative;
 	display: inline-block;
 }
 
-#sub .topics-rank ul .rank-list .rank-number img{
+#sub .topics-rank ul .rank-list .rank-number img {
 	position: absolute;
 	top: 50%;
 	margin-top: -10px;
 }
 
-#sub .topics-rank ul .rank-list .gold{
+#sub .topics-rank ul .rank-list .gold {
 	width: 34px;
 	height: auto;
 }
 
-#sub .topics-rank ul .rank-list .silver{
+#sub .topics-rank ul .rank-list .silver {
 	left: 3px;
 	width: 30px;
 	height: auto;
 }
 
-#sub .topics-rank ul .rank-list .rank-text{
+#sub .topics-rank ul .rank-list .rank-text {
 	display: inline-block;
 	padding-left: 28px;
 	font-size: 12px;
 }
 
-#sub .topics-rank ul .rank-list .rank-text .campaign{
+#sub .topics-rank ul .rank-list .rank-text .campaign {
 	position: relative;
 	top: -2px;
 	left: 6px;
@@ -826,7 +823,7 @@ body #content li{
 	font-size: 9px;
 }
 
-#sub .topics-rank ul .rank-list .rank-text .campaign::before{
+#sub .topics-rank ul .rank-list .rank-text .campaign::before {
 	position: absolute;
 	top: 50%;
 	left: -10px;
@@ -837,7 +834,7 @@ body #content li{
 	content: '';
 }
 
-#sub .topics-rank ul .rank-list .rank-text .campaign::after{
+#sub .topics-rank ul .rank-list .rank-text .campaign::after {
 	position: absolute;
 	top: 50%;
 	left: -12px;
@@ -848,41 +845,41 @@ body #content li{
 	content: '';
 }
 
-#sub .topics-rank ul .rank-list .rank-text a{
+#sub .topics-rank ul .rank-list .rank-text a {
 	text-decoration: none;
 }
 
-#sub .topics-rank ul .rank-list .rank-text .rank-product{
+#sub .topics-rank ul .rank-list .rank-text .rank-product {
 	font-weight: bold;
 }
 
-#sub .topics-rank .rank-image{
+#sub .topics-rank .rank-image {
 	display: inline-block;
 }
 
-#sub .topics-rank .rank-image .rank-text{
+#sub .topics-rank .rank-image .rank-text {
 	text-align: center;
 }
 
 /*bfc-news*/
-#sub .bfc-news ul{
+#sub .bfc-news ul {
 	margin: 0 0 8px 10px;
 }
 
-#sub .bfc-news .title{
+#sub .bfc-news .title {
 	padding-bottom: 0;
 }
 
-#sub .bfc-news .news-list li{
+#sub .bfc-news .news-list li {
 	position: relative;
 	padding: 8px 0 3px 0;
 }
 
-#sub .bfc-news .news-list li + li{
+#sub .bfc-news .news-list li + li {
 	border-top: 1px dotted #bfb7ac;
 }
 
-#sub .bfc-news .news-list li::before{
+#sub .bfc-news .news-list li::before {
 	position: absolute;
 	top: 50%;
 	left: 0;
@@ -895,7 +892,7 @@ body #content li{
 	content: '';
 }
 
-#sub .news-list li a{
+#sub .news-list li a {
 	display: inline-block;
 	padding-left: 12px;
 	color: #333;
@@ -903,57 +900,57 @@ body #content li{
 	font-size: 11px;
 }
 
-#sub .bfc-news .news-list li a .day{
+#sub .bfc-news .news-list li a .day {
 	display: inline-block;
 	margin-left: 4px;
 	color: #aaa;
 	font-size: 11px;
 }
 
-#sub .bfc-news .news-list li a .icon::after{
+#sub .bfc-news .news-list li a .icon::after {
 	display: inline-block;
 	margin-left: 2px;
 	background-size: contain;
 	content: '';
 }
 
-#sub .bfc-news .news-list li a .icon-shine::after{
+#sub .bfc-news .news-list li a .icon-shine::after {
 	width: 10px;
 	height: 10px;
 	background-image: url(../img/icon_emoji_shine.png);
 }
 
-#sub .bfc-news .news-list li a .icon-heart::after{
+#sub .bfc-news .news-list li a .icon-heart::after {
 	width: 10px;
 	height: 9px;
 	background-image: url(../img/icon_emoji_heart.png);
 }
 
-#sub .bfc-news .news-list li a .icon-smile::after{
+#sub .bfc-news .news-list li a .icon-smile::after {
 	width: 10px;
 	height: 10px;
 	background-image: url(../img/icon_emoji_smile.png);
 }
 
-#sub .bfc-news .brand-list{
+#sub .bfc-news .brand-list {
 	margin: 0 10px 10px 10px;
 	padding: 8px 12px 8px 6px;
 	border: 1px solid #e8e5e0;
 	background-color: #f4f2ec;
 }
 
-#sub .bfc-news .brand-list li{
+#sub .bfc-news .brand-list li {
 	display: inline-block;
 }
 
-#sub .bfc-news .brand-list li a{
+#sub .bfc-news .brand-list li a {
 	font-size: 13px;
 }
 
-#sub .bfc-news .brand-list li + li{
-	margin-left: 6px;
+#sub .bfc-news .brand-list li + li {
+	margin-right: 6px;
 }
 
-#sub .bfc-news .brand-list li:nth-child(4){
-	margin-left: 0;
+#sub .bfc-news .brand-list li:nth-child(1) {
+	margin-right: 4px;
 }
