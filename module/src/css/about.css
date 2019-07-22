@@ -407,45 +407,45 @@ body #content li {
 	border-radius: 4px;
 }
 
-.mycosme .mycosme-contentArea {
+.mycosme .mycosme-content-wrap {
 	margin: 2px;
 	border: 1px solid #d9d2c3;
 	border-radius: 4px;
 }
 
-.mycosme .mycosme-contentArea .mycosme-content::after {
+.mycosme .mycosme-content-wrap .mycosme-content::after {
 	display: block;
 	clear: both;
 	content: '';
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-image ,
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea {
+.mycosme .mycosme-content-wrap .mycosme-content .mycosme-image ,
+.mycosme .mycosme-content-wrap .mycosme-content .mycosme-text-wrap {
 	float: left;
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea {
+.mycosme .mycosme-content-wrap .mycosme-content .mycosme-text-wrap {
 	padding: 18px 0 0 18px;
 	width: 328px;
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea h2 img {
+.mycosme .mycosme-content-wrap .mycosme-content .mycosme-text-wrap h2 img {
 	margin-bottom: 11px;
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea .mycosme-listArea {
+.mycosme .mycosme-content-wrap .mycosme-content .mycosme-text-wrap .mycosme-list-wrap {
 	margin-bottom: 12px;
 	padding-top: 12px;
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea .mycosme-listArea .mycosme-list {
+.mycosme .mycosme-content-wrap .mycosme-content .mycosme-text-wrap .mycosme-list-wrap .mycosme-list {
 	position: relative;
 	padding-left: 15px;
 	font-size: 13px;
 	line-height: 1.6;
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea .mycosme-listArea .mycosme-list::before {
+.mycosme .mycosme-content-wrap .mycosme-content .mycosme-text-wrap .mycosme-list-wrap .mycosme-list::before {
 	position: absolute;
 	top: 4px;
 	left: 2px;
@@ -457,21 +457,21 @@ body #content li {
 	content: '';
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea .mycosme-listArea .mycosme-list + li {
+.mycosme .mycosme-content-wrap .mycosme-content .mycosme-text-wrap .mycosme-list-wrap .mycosme-list + li {
 	margin-top: 9px;
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-textArea .mycosme-text {
+.mycosme .mycosme-content-wrap .mycosme-content .mycosme-text-wrap .mycosme-text {
 	line-height: 1.4;
 }
 
-.mycosme .mycosme-contentArea .mycosme-content .mycosme-image {
+.mycosme .mycosme-content-wrap .mycosme-content .mycosme-image {
 	margin-left: 24px;
 	padding-top: 15px;
 	width: 257px;
 }
 
-.mycosme .mycosme-contentArea .registration {
+.mycosme .mycosme-content-wrap .registration {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -481,7 +481,7 @@ body #content li {
 	background: linear-gradient(to bottom, #fff 0%, #faf8f5 50%, #e9e4d9 100%);
 }
 
-.mycosme .mycosme-contentArea .registration .registration-text {
+.mycosme .mycosme-content-wrap .registration .registration-text {
 	margin: 0 8px 0 112px;
 	color: #d36073;
 	vertical-align: middle;
@@ -490,19 +490,19 @@ body #content li {
 	line-height: 1.4;
 }
 
-.mycosme .mycosme-contentArea .registration .registration-text ,
-.mycosme .mycosme-contentArea .registration .registration-button {
+.mycosme .mycosme-content-wrap .registration .registration-text ,
+.mycosme .mycosme-content-wrap .registration .registration-button {
 	display: inline-block;
 }
 
-.mycosme .mycosme-contentArea .registration .registration-button {
+.mycosme .mycosme-content-wrap .registration .registration-button {
 	height: 32px;
 	border: 1px solid #ccb0b7;
 	border-radius: 5px;
 	vertical-align: middle;
 }
 
-.mycosme .mycosme-contentArea .registration .registration-button a {
+.mycosme .mycosme-content-wrap .registration .registration-button a {
 	display: block;
 	padding: 5px 23px 3px 24px;
 	height: 22px;
@@ -517,7 +517,7 @@ body #content li {
 	font-size: 15px;
 }
 
-.mycosme .mycosme-contentArea .registration .registration-button a:hover {
+.mycosme .mycosme-content-wrap .registration .registration-button a:hover {
 	cursor: pointer;
 }
 
