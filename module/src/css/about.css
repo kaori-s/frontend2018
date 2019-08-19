@@ -268,10 +268,10 @@ body #content li {
 	position: absolute;
 	right: 31px;
 	bottom: 20px;
-	width: 150px;
-	height: 67px;
+	width: 148px;
+	height: 60px;
 	background: url(../img/background_coin.jpg);
-	background-size: 150px 67px;
+	background-size: 148px 60px;
 	content: '';
 }
 
